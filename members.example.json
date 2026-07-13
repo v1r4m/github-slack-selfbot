@@ -1,0 +1,12 @@
+{
+  "_comment": "Copy to members.json (gitignored) and fill in. One entry per teammate. Each needs their own Slack USER token (xoxp-) so posts appear as them. GitHub is read with the single GITHUB_TOKEN in .env — you do NOT need each person's GitHub token. By default the channel comes from SLACK_CHANNEL in .env; add a top-level \"channel\": \"C0...\" here ONLY if you want to override it.",
+  "channel": "C123456666",
+  "members": [
+    {
+      "name": "은진",
+      "slack_token": "xoxp-...",
+      "github_logins": ["eunjinkosilver"],
+      "emails": ["eunjin@dd.com"]
+    }
+  ]
+}
